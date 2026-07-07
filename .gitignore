@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+# Added by code-review-graph
+.code-review-graph/
+
+# RAG data — raw sources and derived artifacts (keep dirs, ignore contents)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Claude Code — ignore only personal/local config; share settings.json + .mcp.json
+.claude/settings.local.json
