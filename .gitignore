@@ -19,3 +19,6 @@ data/processed/*
 
 # Claude Code — ignore only personal/local config; share settings.json + .mcp.json
 .claude/settings.local.json
+docs/PROJECTS.md
+docs/PYTHON-SYLLABUS.md
+docs/SYLLABUS.md
